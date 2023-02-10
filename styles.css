@@ -97,7 +97,8 @@ header{
   font-family: "Roboto";
   font-size: 1rem;
   color: black;
-  
+  grid-template-columns: repeat(auto-fit, minmax(186px));
+
 }
 
 .images h3{
@@ -114,7 +115,7 @@ header{
   width: 12rem;
   background-size: contain;
   text-align: center;
-  
+  flex-wrap:wrap;  
 }
 
 #t{
@@ -186,6 +187,7 @@ header{
 
 #founders{
   display: grid;
+  flex-wrap: wrap;
   background-color: lightgrey;
   margin-top: 3rem;
   justify-content: center;
